@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oops</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class ="container mt-4">
+        <h2>oops</h2>
+        <ol>
+            <li>class</li>
+            <li>object</li>
+            <li>Inheritance [single,multilevel,multiple(indirect)]</li>
+            <li>Abstraction[function(declare),define(call)] </li>
+            <li>polymorphism[method,overloading,overridding]</li>
+            <li>Encapusalton[private,protected,defult,public]</li>
+            <li>Exception handling [try,catch,throw.throws,finally]</li>
+        </ol>
+        <script>
+            class Axis{
+                accNo=0;
+                bal=0;
+                deposit(amt){
+                    this.bal+=amt;
+                    console.log(thi.accNo+"balance:"+this.bal);
+                }
+                withdraw(amt){
+                    if(amt<=this.bal);
+                    console.log(this.bal);
+                }
+                openAcc(aadhar){}
+                openAcc(pan){}
+            }
+            let hari =new axis();
+            let priya =new Axis();
+            hari.axxNo=23456464;
+            har.bal=6000;
+            priya.axisNo=67895899;
+            priya.bal=4000;
+
+            hari.deposit (100);
+            priya.withdraw(300);
+            hari.withdraw(600);
+            priya.deposit(900);
+
+            class AxisLoan extends Axis
+            {
+                loanBal = 0;
+                applyLoanBal =(amt);
+                console.log(this.accNo +"Applied Loan for amt"+amt);
+            }
+            payEmi(amt){
+                this.loanBal =amt;
+                console.log(this.accNo+"Balance to pay"+this.loanBal)
+            }
+            checkbal(){
+                console.log(this.loanBal);
+            }
+            let hariLoan = new AxisLoan();
+            hariLoan.accNo = 897609876;
+            hariLoan.bal = 6000;
+            hariLoan.applyLoan(50000);
+            hariLoan.deposit(200);
+            hariLoan.withdraw(800);
+            hariLoan.payEmi(1000);
+
+            interface RB{
+                deposit();
+                withdraw();
+
+            }
+        </script>
+    </div>
+    
+</body>
+</html>

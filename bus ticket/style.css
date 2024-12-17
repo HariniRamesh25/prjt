@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #007bff;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 0;
+}
+
+.seat-selection button {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.seat-selection .row {
+    margin-bottom: 10px;
+}
+
+.card-body {
+    text-align: center;
+}
